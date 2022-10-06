@@ -24,7 +24,7 @@ window.title("View cats")
 lbl_null = Label(window, text="                                   ")
 lbl_null.grid(column=0, row=0)
 
-lbl = Label(window, text = "Tap \"View\" to see cat", font = ("Comic Sans MS", 20, "bold") )
+lbl = Label(window, text = "Tap \"View\" to see dog", font = ("Comic Sans MS", 20, "bold") )
 lbl.grid(column=0, row=1)
 
 btn = Button(window, text="Views", bg="blue", fg="green", font=("Comic Sans MS", 20, "bold"), command = click)
